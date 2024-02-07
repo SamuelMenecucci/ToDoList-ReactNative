@@ -3,12 +3,12 @@ import { styles } from "./styles";
 import { useState } from "react";
 
 type Props = {
-  task?: {
+  task: {
     checked: boolean;
     text: string;
   };
-  onRemove?: () => void;
-  onCheck?: () => void;
+  onRemove: () => void;
+  onCheck: () => void;
 };
 
 export function Task({ task, onRemove, onCheck }: Props) {
@@ -25,7 +25,7 @@ export function Task({ task, onRemove, onCheck }: Props) {
       </TouchableOpacity>
 
       <Text style={task?.checked ? styles.taskTextChecked : styles.taskText}>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        {task.text}
       </Text>
 
       <TouchableOpacity onPress={onRemove}>
