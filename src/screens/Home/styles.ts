@@ -6,7 +6,11 @@ export const styles = StyleSheet.create({
     backgroundColor: "#1E1E1E",
     height: "100%",
   },
-
+  content: {
+    marginTop: -25,
+    marginRight: 15,
+    marginLeft: 15,
+  },
   form: {
     width: "100%",
     flexDirection: "row",
@@ -34,7 +38,6 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     marginTop: 36,
-    marginBottom: 20,
   },
   info: {
     flexDirection: "row",
@@ -57,5 +60,8 @@ export const styles = StyleSheet.create({
     width: 25,
     borderRadius: 8,
     textAlign: "center",
+  },
+  listContent: {
+    marginTop: 20,
   },
 });

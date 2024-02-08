@@ -10,6 +10,8 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
+    paddingLeft: 15,
+    paddingRight: 15,
   },
   taskText: {
     color: colors["gray-100"],
