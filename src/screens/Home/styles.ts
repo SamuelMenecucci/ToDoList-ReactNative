@@ -23,6 +23,7 @@ export const styles = StyleSheet.create({
     padding: 12,
     borderRadius: 6,
     color: colors["gray-100"],
+    fontFamily: "Inter_400Regular",
   },
   button: {
     width: 52,
@@ -46,20 +47,20 @@ export const styles = StyleSheet.create({
   created: {
     color: colors.blue,
     fontSize: 14,
-    fontWeight: "bold",
+    fontFamily: "Inter_700Bold",
   },
   finished: {
     color: colors.purple,
     fontSize: 14,
-    fontWeight: "bold",
+    fontFamily: "Inter_700Bold",
   },
   quantity: {
-    fontWeight: "bold",
     color: colors["gray-100"],
     backgroundColor: colors["gray-400"],
     width: 25,
     borderRadius: 8,
     textAlign: "center",
+    fontFamily: "Inter_700Bold",
   },
   listContent: {
     marginTop: 20,

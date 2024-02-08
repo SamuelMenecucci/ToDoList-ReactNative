@@ -17,6 +17,7 @@ export const styles = StyleSheet.create({
     color: colors["gray-100"],
     flex: 1,
     textAlign: "center",
+    fontFamily: "Inter_400Regular",
   },
   taskTextChecked: {
     color: colors["gray-300"],

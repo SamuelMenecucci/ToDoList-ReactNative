@@ -13,10 +13,11 @@ export const styles = StyleSheet.create({
   },
   header: {
     marginTop: 16,
-    fontWeight: "bold",
     color: colors["gray-300"],
+    fontFamily: "Inter_700Bold",
   },
   text: {
     color: colors["gray-300"],
+    fontFamily: "Inter_400Regular",
   },
 });
